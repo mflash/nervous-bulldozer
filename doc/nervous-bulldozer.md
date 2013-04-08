@@ -29,10 +29,14 @@ No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de 
 
 A avaliação automática de exercícios é utilizada em concursos de programação e a verificação de similaridade de código serve para: (a) reduzir fraudes e plágio quando compara código entre submissões de alunos e (b) avaliar a qualidade do código, quando compara código do professor e de alunos.
 
-SARC no Moodle:
-Recursos
-- EAD: satélite, salas remotas, videoconferência, salas para avaliação, bancas (ex.: agendamento na PUCRS Virtual)
-- presencial e semi-presencial: salas, laboratórios, projetores
+Módulos para Administração
+==========================
+
+SARC no Moodle
+--------------
+
+O SARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e alocação de recursos. O Moodle é utilizado também em EAD, neste caso, os recursos alocados seriam diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do SARC.
+Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de videoconferência, salas presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados pelo SARC incluem laboratórios, projetores e computadores portáteis.
 
 Chamada virtual:
 - impressão de caderno (ex.: planilha no Excel
@@ -51,13 +55,30 @@ Gravação de aulas
 - registrar presença em aulas
 - apresentar regimento em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
 
-Correção de exercícios de programação básica
+Módulos para Programação de Computadores
+========================================
+
+Auto-correção de exercícios
+---------------------------
 - testes unitários criados pelo professor
 - cucumber para especificação
-- listas prédefinidas de erros mais comuns
+
+Correção de código fonte
+------------------------
+- listas pré-definidas de erros mais comuns
 - verificação de padrões de codificação
-- Java e C
-- destaque de sintaxe
+
+Verificação de similaridade
+---------------------------
+- fontes não citadas na Internet
+- cópia entre alunos
+- erros de sintaxe e ortografia (ex.: variável maim(), int rais; em mais de um programa entregue)
+- variações nos valores dos enunciados  (ex.: cada enunciado inclui dados variáveis: valores de entrada e constantes, cada aluno recebe uma versão diferente)
+
+Maratona de programação
+-----------------------
+Cada aluno recebe um exercício diferente. As respostas e comentários ficam em um fórum.
+
 
 Módulos Relacionados
 ====================
@@ -117,3 +138,8 @@ Referências
 - MOODLE Desenvolvimento
 - Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
 - Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+- 
+Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhamento de Cursos em Plataforma Tablet. 2011. Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+
+-
+J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona baseada em Web 2.0 e integrada a um ambiente de Educação a Distância. 2007. Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
