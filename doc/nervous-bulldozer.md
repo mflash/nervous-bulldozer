@@ -112,7 +112,9 @@ Desenvolvimento no Moodle
 Versão 2.0 mudou a estrutura do Moodle.
 Livros da Amazon tratam do desenvolvimento no Moodle 1.9.
 
-Documentação online
+SODA MVC com Moodle (qual versão?)
+http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
+
 Desenvolvimento com Frameworks
 ------------------------------
 
@@ -134,11 +136,16 @@ Marco Mangan wrote:
 Pois é, monstro, foi isso que falei...
 Frameworks não se dão bem, por causa do fluxo de controle!
 
+Consultas
+=========
+- how to create a Moodle plugin (Google)
+
 Referências
 ===========
+- SODA? http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
 - SARC
 - NERVOUS BULLDOZER
-- MOODLE Desenvolvimento
+- MOODLE Desenvolvimento. http://docs.moodle.org/dev/Developer_documentation?rdfrom=http%3A%2F%2Fdocs.moodle.org%2F24%2Fen%2Findex.php%3Ftitle%3DDevelopment%26redirect%3Dno
 - Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
 - Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
 - Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhamento de Cursos em Plataforma Tablet. 2011. Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
