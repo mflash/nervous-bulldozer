@@ -177,6 +177,7 @@ Consultas
 =========
 As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
 - "how to create a Moodle plugin" (Google)
+- learn to programa PHP" (Google)
 
 Referências
 ===========
@@ -197,3 +198,5 @@ Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração co
 Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhamento de Cursos em Plataforma Tablet. 2011. Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
 
 J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona baseada em Web 2.0 e integrada a um ambiente de Educação a Distância. 2007. Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+
+PHP Manual http://www.php.net/manual/en/
