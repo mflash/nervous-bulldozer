@@ -18,7 +18,7 @@ Linha de Produtos
 
 Dentro da plataforma Moodle, podemos identificar: (a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e (b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
 
-No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e o SARC (MIKA, PAULO, MANGAN) que acabou por indicar que os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
+No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e o SARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
 
 A investigação indica que seria possível transferir os ativos exclusivos do SARC para a plataforma Moodle. A reescrita do SARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas e oferece a oportunidade de refatorar e atualizar a implementação do SARC.
 
@@ -101,7 +101,9 @@ Frameworks não se dão bem, por causa do fluxo de controle!
 
 Referências
 ===========
-SARC
-NERVOUS BULLDOZER
-MOODLE Desenvolvimento
+- SARC
+- NERVOUS BULLDOZER
+- MOODLE Desenvolvimento
+- Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
+- Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
 MIKA, PAULO, MANGAN Moodle Moot / TCC
