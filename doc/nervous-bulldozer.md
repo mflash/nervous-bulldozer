@@ -168,7 +168,7 @@ Desdobramentos
 - Livro sobre como desenvolver no Moodle
 - Cursos sobre como desenvolver no Moodle
 - Publicação em Engenharia de Software e Educação
-- Empresa/Organização privada sobre consultoria com Moodle
+- Empresa/Organização privada sobre consultoria com Moodle e hospedagem de Moodle
 - Orientação de bolsistas de IC, projetos FAPERGS etc
 - Curso em EAD da PUCRS Virtual para ensino de programação
 
