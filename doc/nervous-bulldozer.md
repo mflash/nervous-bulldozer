@@ -38,15 +38,18 @@ SARC no Moodle
 O SARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e alocação de recursos. O Moodle é utilizado também em EAD, neste caso, os recursos alocados seriam diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do SARC.
 Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de videoconferência, salas presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados pelo SARC incluem laboratórios, projetores e computadores portáteis.
 
-Chamada virtual:
+Chamada virtual
+---------------
 - impressão de caderno (ex.: planilha no Excel
 - integração com iOS, Android para chamada em sala presencial
 - avaliação de contribuição em salas virtuais e entrega de trabalhos
 
 Gravação de aulas
+-----------------
 - ver produto da Adobe e Camtasia
 
 Área Moodle para TCC
+--------------------
 - automatizar fluxo de trabalho
 - detectar plágio
 - alocar salas para bancas
