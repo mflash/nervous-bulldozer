@@ -44,9 +44,17 @@ Gravação de aulas
 - detectar plágio
 - alocar salas para bancas
 - alocar orientadores, revisores
-- emitir alertas sobre prados ANTES que vençam
+- emitir alertas sobre prazos ANTES que vençam
 - registrar presença em aulas
 - apresentar regimento em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
+
+Correção de exercícios de programação básica
+- testes unitários criados pelo professor
+- cucumber para especificação
+- listas prédefinidas de erros mais comuns
+- verificação de padrões de codificação
+- Java e C
+- destaque de sintaxe
 
 Módulos Relacionados
 ====================
@@ -104,6 +112,5 @@ Referências
 - SARC
 - NERVOUS BULLDOZER
 - MOODLE Desenvolvimento
-- Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
+- Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
 - Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
-MIKA, PAULO, MANGAN Moodle Moot / TCC
