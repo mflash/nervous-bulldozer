@@ -19,7 +19,7 @@ Inicialmente, adotaremos o conceito de linha de produtos. A estratégia é ident
 Linha de Produtos
 =================
 
-Dentro da plataforma Moodle, podemos identificar: (a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e (b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
+Dentro da plataforma Moodle, aplicada em disciplinas de semestres iniciais da FACIN e FENG, podemos identificar: (a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e (b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
 
 No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e o SARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
 
@@ -109,6 +109,7 @@ https://moodle.org/plugins/browse.php?list=category&id=35
 Desenvolvimento no Moodle
 =========================
 
+Segundo o Moodle Dev Overview, o Nervous Bulldozer seria um Moodle Partner.
 Versão 2.0 mudou a estrutura do Moodle.
 Livros da Amazon tratam do desenvolvimento no Moodle 1.9.
 
@@ -136,6 +137,42 @@ Marco Mangan wrote:
 Pois é, monstro, foi isso que falei...
 Frameworks não se dão bem, por causa do fluxo de controle!
 
+é que o que queremos é bem mais que um plugin
+eu diria que não dá para classificar nem como módulo para o Moodle
+não sei bem ao certo como integrar do jeito "correto"
+se é que tem um!
+
+por exemplo, para o sistema de pedido de áreas, que a secretaria acessa e cria as áreas de cada disciplina
+utilizamos apenas a API disponibilizada pelo Moodle
+
+e parte da YUI
+
+
+Cronograma
+==========
+
+- estudo de php
+- estudo do Dev Moodle
+- recuperar código de plugins similares
+- recuperar trabalho da Mika/Paulo
+- dividir o SARC em componentes: algoritmo de carga, cadastros, reservar, alteração, calendários.
+- identificar componentes do SARC existentes no Moodle
+
+Desdobramentos
+==============
+- Horas de pesquisa na PUCRS: FACIN, PUCRS Virtual, LAPREN.
+- Centro de Pesquisa em Ensino de Programação (similar ao da Física, ver anuário da PUCRS)
+- Publicação no FISL e Moodle Moot em 2014
+- Customização para outras instituições e faculdades
+- Orientações de TCC
+- Livro sobre como desenvolver no Moodle
+- Cursos sobre como desenvolver no Moodle
+- Publicação em Engenharia de Software e Educação
+- Empresa/Organização privada sobre consultoria com Moodle
+- Orientação de bolsistas de IC, projetos FAPERGS etc
+- Curso em EAD da PUCRS Virtual para ensino de programação
+
+
 Consultas
 =========
 As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
@@ -145,11 +182,13 @@ Referências
 ===========
 SODA http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
 
-SARC http://mflash.github.io/nervous-bulldozer/
+SARC 
 
-NERVOUS BULLDOZER
+NERVOUS BULLDOZER http://mflash.github.io/nervous-bulldozer/
 
 MOODLE Desenvolvimento. http://docs.moodle.org/dev/Developer_documentation?rdfrom=http%3A%2F%2Fdocs.moodle.org%2F24%2Fen%2Findex.php%3Ftitle%3DDevelopment%26redirect%3Dno
+
+MOODLE Dev Overview http://docs.moodle.org/dev/Overview
 
 Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
 
