@@ -138,16 +138,23 @@ Frameworks não se dão bem, por causa do fluxo de controle!
 
 Consultas
 =========
-- how to create a Moodle plugin (Google)
+As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
+- "how to create a Moodle plugin" (Google)
 
 Referências
 ===========
-- SODA? http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
-- SARC
-- NERVOUS BULLDOZER
-- MOODLE Desenvolvimento. http://docs.moodle.org/dev/Developer_documentation?rdfrom=http%3A%2F%2Fdocs.moodle.org%2F24%2Fen%2Findex.php%3Ftitle%3DDevelopment%26redirect%3Dno
-- Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
-- Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
-- Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhamento de Cursos em Plataforma Tablet. 2011. Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+SODA http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
 
-- J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona baseada em Web 2.0 e integrada a um ambiente de Educação a Distância. 2007. Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+SARC http://mflash.github.io/nervous-bulldozer/
+
+NERVOUS BULLDOZER
+
+MOODLE Desenvolvimento. http://docs.moodle.org/dev/Developer_documentation?rdfrom=http%3A%2F%2Fdocs.moodle.org%2F24%2Fen%2Findex.php%3Ftitle%3DDevelopment%26redirect%3Dno
+
+Mika Kuamoto ; Paulo Silveira Junior ; MANGAN, M. A. S. . ISMA um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. In: MoodleMoot Brasil 2012, 2012, São Paulo. MoodleMoot Brasil 2012, 2012.
+
+Mika Kuamoto ; Paulo Silveira Junior. ISMA: Um Plug-in Moodle de Integração com Sistemas de Planejamento Acadêmico e Agendas Utilizando XML-RPC. 2012. Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+
+Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhamento de Cursos em Plataforma Tablet. 2011. Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
+
+J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona baseada em Web 2.0 e integrada a um ambiente de Educação a Distância. 2007. Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
