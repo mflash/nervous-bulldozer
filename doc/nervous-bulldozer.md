@@ -94,8 +94,10 @@ Gravação de aulas
 - registrar presença em aulas
 - apresentar regimento em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
 
-Badges
---------
+Relógio PUCRS
+-------------
+- apresentar codificação de dia da semana e horário da PUCRS
+
 
 Módulos para Programação de Computadores
 ========================================
@@ -119,7 +121,12 @@ Verificação de similaridade
 
 Maratona de programação
 -----------------------
-Cada aluno recebe um exercício diferente. As respostas e comentários ficam em um fórum.
+- Cada aluno recebe um exercício diferente. As respostas e comentários ficam em um fórum.
+
+Badges
+--------
+- Indicar as competências demonstradas nos exercícios. Por exemplo, "margem esquerda", "nomes de variáveis".
+- Ver 4square e openbadges
 
 
 Módulos Relacionados
