@@ -179,8 +179,8 @@ Desdobramentos
 Consultas
 =========
 As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
-- "how to create a Moodle plugin" (Google)
-- learn to programa PHP" (Google)
+- "how to create a Moodle plugin" (Google): SODA
+- "learn to program PHP" (Google): PHP Manual
 
 Referências
 ===========
