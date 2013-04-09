@@ -145,6 +145,8 @@ https://moodle.org/plugins/browse.php?list=category&id=35
 Desenvolvimento no Moodle
 =========================
 
+Moodle.org e Moodle.com.
+
 Segundo o Moodle Dev Overview, o Nervous Bulldozer seria um Moodle Partner.
 Versão 2.0 mudou a estrutura do Moodle.
 Livros da Amazon tratam do desenvolvimento no Moodle 1.9.
@@ -258,6 +260,6 @@ Universidade Católica de Brasília. Orientador: Wilson Carlos Hartmann. http://
 
 ADOBE LMS. http://www.adobe.com/resources/elearning/lms_integration.html
 
-http://moodle.com/partners/about/
+MOODLE.COM http://moodle.com/partners/about/
 
-http://tech.solin.eu/doku.php?id=moodle:moodle
+SOLIN http://tech.solin.eu/doku.php?id=moodle:moodle
