@@ -227,8 +227,9 @@ Fraga e Giraffa. http://www.pucrs.br/research/salao/2008-IXSalaoIC/index_files/m
 
 Porfiro, R. M. “Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle”. Trabalho
 de Conclusão. Faculdade de Informática da Pontifícia Universidade Católica do Rio Grande do Sul. Porto
-Alegre: 2007. pp 23-34. http://pt.scribd.com/doc/4605923/Estudando-o-moodle
+Alegre: 2007. http://pt.scribd.com/doc/4605923/Estudando-o-moodle
 
-http://pt.scribd.com/doc/35616639/Criacao-de-Modulos-para-o-Moodle
+Gabriel Reis de Souza; Vanderson Soares Porto. "Criação de plugins para a plataforma Moodle" 2010. 
+Universidade Católica de Brasília. Orientador: Wilson Carlos Hartmann. http://pt.scribd.com/doc/35616639/Criacao-de-Modulos-para-o-Moodle
 
 
