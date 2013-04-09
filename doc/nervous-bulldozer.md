@@ -116,6 +116,9 @@ Livros da Amazon tratam do desenvolvimento no Moodle 1.9.
 SODA MVC com Moodle (qual versão?)
 http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
 
+Existe um curso no Moodle.org. http://dev.moodle.org/course/view.php?id=2
+Necessita login em Moodle.org ou senha de visitante.
+
 Desenvolvimento com Frameworks
 ------------------------------
 
@@ -187,6 +190,7 @@ SARC
 
 NERVOUS BULLDOZER http://mflash.github.io/nervous-bulldozer/
 
+MOODLE Introduction to Moodle Programming. http://dev.moodle.org/course/view.php?id=2
 MOODLE Desenvolvimento. http://docs.moodle.org/dev/Developer_documentation?rdfrom=http%3A%2F%2Fdocs.moodle.org%2F24%2Fen%2Findex.php%3Ftitle%3DDevelopment%26redirect%3Dno
 
 MOODLE Dev Overview http://docs.moodle.org/dev/Overview
