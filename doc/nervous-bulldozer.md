@@ -7,31 +7,50 @@ mflashbr@gmail.com
 
 Introdução
 ==========
-O projeto Nervous Bulldozer é uma investigação sobre o desenvolvimento de extensões para o sistema Moodle. A principal extensão prevista é a integração do código do Sistema de Alocação de Recursos Computacionais (SARC).
+O projeto Nervous Bulldozer é uma investigação sobre o desenvolvimento de extensões para o sistema Moodle.
+A principal extensão prevista é a integração do código do Sistema de Alocação de Recursos Computacionais (SARC).
 
-O repositório do projeto está no GitHub (http://mflash.github.io/nervous-bulldozer/). No momento, não há apoio ou patrocínio, o que permite maior liberdade para tomar decisões e um ritmo de trabalho menor. 
+O repositório do projeto está no GitHub (http://mflash.github.io/nervous-bulldozer/). 
+No momento, não há apoio ou patrocínio, o que permite maior liberdade para tomar decisões e um ritmo de 
+trabalho menor. 
 
-No futuro, essa situação pode mudar, sendo a PUCRS a principal candidata a fornecer patrocínio. A investigação permite obter experiência na plataforma Moodle e gerar um contexto para orientação de trabalhos de conclusão e projetos de pesquisa.
+No futuro, essa situação pode mudar, sendo a PUCRS a principal candidata a fornecer patrocínio. 
+A investigação permite obter experiência na plataforma Moodle e gerar um contexto para orientação de 
+trabalhos de conclusão e projetos de pesquisa.
 
-O esforço para iniciar o desenvolvimento na plataforma Moodle é alto. Uma estratégia de reutilização de software planejada deve ser utilizada para reduzir o custo, reduzir erros e aumentar a produtividade da equipe do projeto.
-Inicialmente, adotaremos o conceito de linha de produtos. A estratégia é identificar ativos e planejar diferentes produtos que possam compartilhar esse ativos.
+O esforço para iniciar o desenvolvimento na plataforma Moodle é alto. Uma estratégia de reutilização de 
+software planejada deve ser utilizada para reduzir o custo, reduzir erros e aumentar a produtividade da 
+equipe do projeto.
+Inicialmente, adotaremos o conceito de linha de produtos. A estratégia é identificar ativos e planejar 
+diferentes produtos que possam compartilhar esse ativos.
 
 Linha de Produtos
 =================
 
-Dentro da plataforma Moodle, aplicada em disciplinas de semestres iniciais da FACIN e FENG, podemos identificar: (a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e (b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
+Dentro da plataforma Moodle, aplicada em disciplinas de semestres iniciais da FACIN e FENG, podemos identificar: 
+(a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e 
+(b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
 
-No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e o SARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
+No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e 
+o SARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que 
+os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
 
-A investigação indica que seria possível transferir os ativos exclusivos do SARC para a plataforma Moodle. A reescrita do SARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas e oferece a oportunidade de refatorar e atualizar a implementação do SARC.
+A investigação indica que seria possível transferir os ativos exclusivos do SARC para a plataforma Moodle. 
+A reescrita do SARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas
+e oferece a oportunidade de refatorar e atualizar a implementação do SARC.
 
-No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de Laboratório de Avaliação e Tarefas do Moodle. O aprendizado da programação demanda prática e existe um potencial para integração de ambientes de programação e também para a avaliação automática e semi-automática de exercícios.
+No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de Laboratório de Avaliação e
+Tarefas do Moodle. O aprendizado da programação demanda prática e existe um potencial para integração de 
+ambientes de programação e também para a avaliação automática e semi-automática de exercícios.
 
-A avaliação automática de exercícios é utilizada em concursos de programação e a verificação de similaridade de código serve para: (a) reduzir fraudes e plágio quando compara código entre submissões de alunos e (b) avaliar a qualidade do código, quando compara código do professor e de alunos.
+A avaliação automática de exercícios é utilizada em concursos de programação e a verificação de 
+similaridade de código serve para: (a) reduzir fraudes e plágio quando compara código entre submissões de 
+alunos e (b) avaliar a qualidade do código, quando compara código do professor e de alunos.
 
-Os sistemas desenvolvidos por terceiros são outra fonte de ativos. O Moodle.org indica a existência de mais de 50 "Moodle partners" e mais de 100 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
+Os sistemas desenvolvidos por terceiros são outra fonte de ativos. O Moodle.org indica a existência de 
+mais de 50 "Moodle partners" e mais de 100 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
 
-Experências anteriores (Charczuk e Silva, 2007; Mazoni e Zanluchi,2009) indicaram que a integração
+Experências anteriores (CHARCZUK e SILVA, 2007; MAZONI e ZANLUCHI,2009) indicaram que a integração
 com o Moodle é um fator de risco no desenvolvimento de trabalhos de conclusão de curso. O mesmo acontece com
 a integração com outros sistemas, como o Eclipse IDE ou o Google Calendar. O principal problema com a integração
 com o Moodle esta na fragmentação da documentação, por conta de versões sucessivas da plataforma. Existe a dúvida 
@@ -48,8 +67,12 @@ Módulos para Administração
 SARC no Moodle
 --------------
 
-O SARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e alocação de recursos. O Moodle é utilizado também em EAD, neste caso, os recursos alocados seriam diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do SARC.
-Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de videoconferência, salas presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados pelo SARC incluem laboratórios, projetores e computadores portáteis.
+O SARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e 
+alocação de recursos. O Moodle é utilizado também em EAD, neste caso, os recursos alocados seriam 
+diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do SARC.
+Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de videoconferência, salas 
+presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados 
+pelo SARC incluem laboratórios, projetores e computadores portáteis.
 
 Chamada virtual
 ---------------
@@ -232,4 +255,4 @@ Alegre: 2007. http://pt.scribd.com/doc/4605923/Estudando-o-moodle
 Gabriel Reis de Souza; Vanderson Soares Porto. "Criação de plugins para a plataforma Moodle" 2010. 
 Universidade Católica de Brasília. Orientador: Wilson Carlos Hartmann. http://pt.scribd.com/doc/35616639/Criacao-de-Modulos-para-o-Moodle
 
-
+ADOBE LMS. http://www.adobe.com/resources/elearning/lms_integration.html
