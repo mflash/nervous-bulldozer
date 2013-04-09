@@ -195,7 +195,7 @@ As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar
 - "how to create a Moodle plugin" (Google): SODA
 - "learn to program PHP" (Google): PHP Manual
 - "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
-- "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google):
+- "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google): citações para Porfiro (2007).
 
 Referências
 ===========
