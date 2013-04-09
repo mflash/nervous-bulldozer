@@ -260,6 +260,8 @@ Universidade Católica de Brasília. Orientador: Wilson Carlos Hartmann. http://
 
 ADOBE LMS. http://www.adobe.com/resources/elearning/lms_integration.html
 
+Bertagnolli. Formação docente aliada aos novos recursos das TICs
+
 MOODLE.COM http://moodle.com/partners/about/
 
 SOLIN http://tech.solin.eu/doku.php?id=moodle:moodle
