@@ -94,6 +94,9 @@ Gravação de aulas
 - registrar presença em aulas
 - apresentar regimento em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
 
+Badges
+--------
+
 Módulos para Programação de Computadores
 ========================================
 
