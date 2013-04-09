@@ -37,7 +37,9 @@ a integração com outros sistemas, como o Eclipse IDE ou o Google Calendar. O p
 com o Moodle esta na fragmentação da documentação, por conta de versões sucessivas da plataforma. Existe a dúvida 
 constante se estamos desenvolvendo do "jeito certo".
 
-
+Fraga e Giraffa (2008) indicam a existência de normas e de um padrão de desenvolvimento para o Moodle e um
+"relatório de cuidados e requisitos necessários para programação/adaptação de funcionalidades" utilizados
+pelo Núcleo de Informática da PUCRS Virtual. Porfiro (2007)
 
 Módulos para Administração
 ==========================
@@ -191,6 +193,7 @@ Consultas
 As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
 - "how to create a Moodle plugin" (Google): SODA
 - "learn to program PHP" (Google): PHP Manual
+- "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
 
 Referências
 ===========
@@ -217,3 +220,5 @@ Luís Felipe Mazoni; Raphael Bernardi Zanluchi. Caderno Virtual de Acompanhament
 J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona baseada em Web 2.0 e integrada a um ambiente de Educação a Distância. 2007. Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. Orientador: Marco Aurelio Souza Mangan.
 
 PHP Manual http://www.php.net/manual/en/
+
+Fraga e Giraffa. http://www.pucrs.br/research/salao/2008-IXSalaoIC/index_files/main_files/trabalhos_sic/ciencias_exatas/ciencia_computacao/61826.pdf
