@@ -194,6 +194,7 @@ As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar
 - "how to create a Moodle plugin" (Google): SODA
 - "learn to program PHP" (Google): PHP Manual
 - "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
+- "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google):
 
 Referências
 ===========
@@ -222,3 +223,7 @@ J. B. Charczuk/T. B. Silva. Ferramenta de comunicação síncrona e assíncrona 
 PHP Manual http://www.php.net/manual/en/
 
 Fraga e Giraffa. http://www.pucrs.br/research/salao/2008-IXSalaoIC/index_files/main_files/trabalhos_sic/ciencias_exatas/ciencia_computacao/61826.pdf
+
+Porfiro, R. M. “Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle”. Trabalho
+de Conclusão. Faculdade de Informática da Pontifícia Universidade Católica do Rio Grande do Sul. Porto
+Alegre: 2007. pp 23-34
