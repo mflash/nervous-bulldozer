@@ -219,6 +219,7 @@ As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar
 - "learn to program PHP" (Google): PHP Manual
 - "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
 - "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google): citações para Porfiro (2007).
+- "moodle partners" (Google): partners não podem ser ONGs e Universidades.
 
 Referências
 ===========
@@ -256,3 +257,7 @@ Gabriel Reis de Souza; Vanderson Soares Porto. "Criação de plugins para a plat
 Universidade Católica de Brasília. Orientador: Wilson Carlos Hartmann. http://pt.scribd.com/doc/35616639/Criacao-de-Modulos-para-o-Moodle
 
 ADOBE LMS. http://www.adobe.com/resources/elearning/lms_integration.html
+
+http://moodle.com/partners/about/
+
+http://tech.solin.eu/doku.php?id=moodle:moodle
