@@ -39,7 +39,8 @@ constante se estamos desenvolvendo do "jeito certo".
 
 Fraga e Giraffa (2008) indicam a existência de normas e de um padrão de desenvolvimento para o Moodle e um
 "relatório de cuidados e requisitos necessários para programação/adaptação de funcionalidades" utilizados
-pelo Núcleo de Informática da PUCRS Virtual. Porfiro (2007)
+pelo Núcleo de Informática da PUCRS Virtual. Porfiro (2007) relata a experiência de desenvolvimento de
+um módulo.
 
 Módulos para Administração
 ==========================
@@ -227,3 +228,7 @@ Fraga e Giraffa. http://www.pucrs.br/research/salao/2008-IXSalaoIC/index_files/m
 Porfiro, R. M. “Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle”. Trabalho
 de Conclusão. Faculdade de Informática da Pontifícia Universidade Católica do Rio Grande do Sul. Porto
 Alegre: 2007. pp 23-34. http://pt.scribd.com/doc/4605923/Estudando-o-moodle
+
+http://pt.scribd.com/doc/35616639/Criacao-de-Modulos-para-o-Moodle
+
+
