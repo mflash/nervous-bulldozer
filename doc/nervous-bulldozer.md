@@ -29,6 +29,16 @@ No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de 
 
 A avaliação automática de exercícios é utilizada em concursos de programação e a verificação de similaridade de código serve para: (a) reduzir fraudes e plágio quando compara código entre submissões de alunos e (b) avaliar a qualidade do código, quando compara código do professor e de alunos.
 
+Os sistemas desenvolvidos por terceiros são outra fonte de ativos. O Moodle.org indica a existência de mais de 50 "Moodle partners" e mais de 100 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
+
+Experências anteriores (Charczuk e Silva, 2007; Mazoni e Zanluchi,2009) indicaram que a integração
+com o Moodle é um fator de risco no desenvolvimento de trabalhos de conclusão de curso. O mesmo acontece com
+a integração com outros sistemas, como o Eclipse IDE ou o Google Calendar. O principal problema com a integração
+com o Moodle esta na fragmentação da documentação, por conta de versões sucessivas da plataforma. Existe a dúvida 
+constante se estamos desenvolvendo do "jeito certo".
+
+
+
 Módulos para Administração
 ==========================
 
