@@ -50,7 +50,7 @@ alunos e (b) avaliar a qualidade do código, quando compara código do professor
 Os sistemas desenvolvidos por terceiros são outra fonte de ativos. O Moodle.org indica a existência de 
 mais de 50 "Moodle partners" e mais de 400 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
 
-O Moodle possui duas identidades distintas: (a) uma comunidade de professores e desenvolvedores em software livre (Moodle.org) e (b) uma associação de empresas privadas (Moodle.com). É provável que os ativos da segunda identidade não estejam disponíveis. Na primeira identidade, os ativos estão registrados com a licença GPL.
+O Moodle possui duas identidades distintas: (a) uma comunidade de professores e desenvolvedores em software livre (Moodle.org) e (b) uma associação de empresas privadas (Moodle.com). É provável que os ativos da segunda identidade não estejam disponíveis. Na primeira identidade, os ativos estão registrados com a licença GPL. A GPL impede o desenvolvimento de sistemas derivados com código fechado. Para contribuir (registrar) um plugin é necessário adotar a GPL.
 
 
 Trabalhos Relacionados
