@@ -161,6 +161,15 @@ Instalação do Moodle
 BitNani com PostGRESQL e Moodle4Mac MAMP com MySQL. Alterar configurações de segurança e privacidade.
 Instalar na pasta Applications do usuário não funciona. Dois usuários: admin e test. Associar test como professor em curso Moodle4Mac (About).
 
+Transferir SODA como zip a partir do gitHub. Copiar soda-master como soda para /Applications/MAMP/htdocs/moodle24/local.
+
+Nas notificações do administrador do Moodle, localizar o addon e solicitar a atualização da base.
+Em plugins, plugins overview, consta soda como local plugin.
+
+Validação
+---------
+http://docs.moodle.org/dev/Plugin_validation
+
 
 Moodle.org e Moodle.com.
 
