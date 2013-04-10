@@ -59,7 +59,7 @@ constante se estamos desenvolvendo do "jeito certo".
 Fraga e Giraffa (2008) indicam a existência de normas e de um padrão de desenvolvimento para o Moodle e um
 "relatório de cuidados e requisitos necessários para programação/adaptação de funcionalidades" utilizados
 pelo Núcleo de Informática da PUCRS Virtual. Porfiro (2007) relata a experiência de desenvolvimento de
-um módulo.
+um módulo no contexto de um trabalho de conclusão.
 
 Módulos para Administração
 ==========================
@@ -92,7 +92,7 @@ Gravação de aulas
 - alocar orientadores, revisores
 - emitir alertas sobre prazos ANTES que vençam
 - registrar presença em aulas
-- apresentar regimento em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
+- apresentar regimento/normas em formato organizado e que permita comentários: ex. manuais do MySQL, blogs
 
 Relógio PUCRS
 -------------
@@ -154,6 +154,13 @@ https://moodle.org/plugins/browse.php?list=category&id=35
 
 Desenvolvimento no Moodle
 =========================
+
+Instalação do Moodle
+--------------------
+
+BitNani com PostGRESQL e Moodle4Mac MAMP com MySQL. Alterar configurações de segurança e privacidade.
+Instalar na pasta Applications do usuário não funciona. Dois usuários: admin e test. Associar test como professor em curso Moodle4Mac (About).
+
 
 Moodle.org e Moodle.com.
 
@@ -232,6 +239,7 @@ As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar
 - "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
 - "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google): citações para Porfiro (2007).
 - "moodle partners" (Google): partners não podem ser ONGs e Universidades.
+- "moodle mac" (Google): 
 
 Referências
 ===========
@@ -275,3 +283,5 @@ Bertagnolli. Formação docente aliada aos novos recursos das TICs
 MOODLE.COM http://moodle.com/partners/about/
 
 SOLIN http://tech.solin.eu/doku.php?id=moodle:moodle
+
+Moodle 4 Mac MAMP http://download.moodle.org/macosx/
