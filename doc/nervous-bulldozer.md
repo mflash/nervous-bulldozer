@@ -8,7 +8,7 @@ mflashbr@gmail.com
 Introdução
 ==========
 O projeto Nervous Bulldozer é uma investigação sobre o desenvolvimento de extensões para o sistema Moodle.
-A principal extensão prevista é a integração do código do Sistema de Alocação de Recursos Computacionais (SARC).
+A principal extensão prevista é a integração do código do Sistema de Alocação de Recursos Computacionais (OpenSARC).
 
 O repositório do projeto está no GitHub (http://mflash.github.io/nervous-bulldozer/). 
 No momento, não há apoio ou patrocínio, o que permite maior liberdade para tomar decisões e um ritmo de 
@@ -31,13 +31,13 @@ Dentro da plataforma Moodle, aplicada em disciplinas de semestres iniciais da FA
 (a) um domínio de aplicação que trata da administração do processo de ensino e aprendizado e 
 (b) outro domínio que trata do processo de ensino e aprendizado de programação de computadores para iniciantes.
 
-No primeiro domínio, o principal ativo disponível é o SARC. Houve uma investigação da integração entre o Moodle e 
-o SARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que 
+No primeiro domínio, o principal ativo disponível é o OpenSARC. Houve uma investigação da integração entre o Moodle e 
+o OpenSARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que 
 os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
 
-A investigação indica que seria possível transferir os ativos exclusivos do SARC para a plataforma Moodle. 
-A reescrita do SARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas
-e oferece a oportunidade de refatorar e atualizar a implementação do SARC.
+A investigação indica que seria possível transferir os ativos exclusivos do OpenSARC para a plataforma Moodle. 
+A reescrita do OpenSARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas
+e oferece a oportunidade de refatorar e atualizar a implementação do OpenSARC.
 
 No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de Laboratório de Avaliação e
 Tarefas do Moodle. O aprendizado da programação demanda prática e existe um potencial para integração de 
@@ -73,15 +73,15 @@ Uma arquitetura modular é adotada em vários sistemas, por exemplo, no Eclipse 
 Módulos para Administração
 ==========================
 
-SARC no Moodle
+OpenSARC no Moodle
 --------------
 
-O SARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e 
+O OpenSARC é utilizado para aulas presenciais e semi-presenciais. O sistema inclui planejamento de aulas e 
 alocação de recursos. O Moodle é utilizado também em EAD, neste caso, os recursos alocados seriam 
-diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do SARC.
+diferentes e, talvez, apenas tarefas síncronas e de avaliação presencial utilizem os recursos do OpenSARC.
 Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de videoconferência, salas 
 presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados 
-pelo SARC incluem laboratórios, projetores e computadores portáteis.
+pelo OpenSARC incluem laboratórios, projetores e computadores portáteis.
 
 Chamada virtual
 ---------------
@@ -144,22 +144,23 @@ Módulos Relacionados
 SIM-Plagiarism
 https://moodle.org/plugins/view.php?plugin=assignment_uploadcode
 
+Moodle plagiarism plugins
+https://moodle.org/plugins/browse.php?list=category&id=35
+
+Virtual Programming Lab
 http://vpl.dis.ulpgc.es
 
-Já existe algo que pode ser usado:
-
+Moodle Workshop Module
 http://docs.moodle.org/23/en/Workshop_module
 
-Instalado no nosso como "Laboratório de Avaliação".
+Instalado no Moodle PUCRS como "Laboratório de Avaliação".  Já foi utilizado na Esp. Jogos para avaliação
+de monografias - funciona bem.
 
-Usei na Especialização, funciona bem.
+Integrações já existentes
+=========================
 
-
-JOOMLA é o CMS...
-Vi que tem um módulo para integrar o Moodle com Joomla (Joomdle), então por que é tão impossível
-integrar com outros?
-Mudando de assunto
-https://moodle.org/plugins/browse.php?list=category&id=35
+JOOMLA + Moodle => Joomdle
+http://www.joomdle.com/en/ - Investigar como se dá a integração de CMS e LMS
 
 Desenvolvimento no Moodle
 =========================
@@ -167,7 +168,7 @@ Desenvolvimento no Moodle
 Instalação do Moodle
 --------------------
 
-BitNani com PostGRESQL e Moodle4Mac MAMP com MySQL. Alterar configurações de segurança e privacidade.
+BitNami com PostGRESQL e Moodle4Mac MAMP com MySQL. Alterar configurações de segurança e privacidade.
 Instalar na pasta Applications do usuário não funciona. Dois usuários: admin e test. Associar test como professor em curso Moodle4Mac (About).
 
 Transferir SODA como zip a partir do gitHub. Copiar soda-master como soda para /Applications/MAMP/htdocs/moodle24/local.
@@ -177,10 +178,11 @@ Em plugins, plugins overview, consta soda como local plugin.
 
 Validação
 ---------
+
 http://docs.moodle.org/dev/Plugin_validation
 
 GPL version 2+ for Moodle 1.x software
-GPL version 3+ for Moodle 2.x
+**GPL version 3+ for Moodle 2.x**
 
 https://moodle.org/plugins/registerplugin.php
 http://docs.moodle.org/dev/Plugins
@@ -203,33 +205,22 @@ Desenvolvimento com Frameworks
 ------------------------------
 
 Mangan: MVC, RoR -like
+
 http://www.phpframeworks.com/
 
 http://cakephp.org/
+
 http://ellislab.com/codeigniter
 
 Dúvida sobre a interferência entre o código do Moodle e o de outros frameworks.
 
-Cohen
-Não necessariamente... O Moodle não tem um "framework", ele usa um PHP bem padrão, a maior
-parte só lê o config e algumas libs próprias. A maior integração que tem é com o YUI3 da Yahoo,
-para a interface com o usuário. Mas como já te comentei, usei jQuery sem problemas.
+Moodle usa:
 
+- PHP puro, orientado a objetos
+- YUI3 (Yahoo User Interface) para componentes de interface com usuário
+- Outras possibilidades: jQuery (já integrado, funciona sem problemaS)
 
-Marco Mangan wrote:
-Pois é, monstro, foi isso que falei...
-Frameworks não se dão bem, por causa do fluxo de controle!
-
-é que o que queremos é bem mais que um plugin
-eu diria que não dá para classificar nem como módulo para o Moodle
-não sei bem ao certo como integrar do jeito "correto"
-se é que tem um!
-
-por exemplo, para o sistema de pedido de áreas, que a secretaria acessa e cria as áreas de cada disciplina
-utilizamos apenas a API disponibilizada pelo Moodle
-
-e parte da YUI
-
+**Dúvida: possível integrar com outros frameworks?**
 
 Cronograma
 ==========
@@ -238,8 +229,8 @@ Cronograma
 - estudo do Dev Moodle
 - recuperar código de plugins similares
 - recuperar trabalho da Mika/Paulo
-- dividir o SARC em componentes: algoritmo de carga, cadastros, reservar, alteração, calendários.
-- identificar componentes do SARC existentes no Moodle
+- dividir o OpenSARC em componentes: algoritmo de carga, cadastros, reservar, alteração, calendários.
+- identificar componentes do OpenSARC existentes no Moodle
 
 Desdobramentos
 ==============
@@ -258,7 +249,8 @@ Desdobramentos
 
 Consultas
 =========
-As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
+As consultas utilizadas em pesquisas são armazenadas neste capítulo para evitar buscas redundantes e para permitir a atualização periódica de resultados e revisão.
+
 - "how to create a Moodle plugin" (Google): SODA
 - "learn to program PHP" (Google): PHP Manual
 - "moodle plugin pucrs" (Google): Fraga e Giraffa (2008), Porfiro (2007).
@@ -268,9 +260,10 @@ As consulta utilizadas em pesquisas são armazenadas neste capítulo para evitar
 
 Referências
 ===========
+
 SODA http://tech.solin.eu/doku.php?id=moodle:using_soda_to_create_new_moodle_modules
 
-SARC 
+OpenSARC https://github.com/mflash/opensarc
 
 NERVOUS BULLDOZER http://mflash.github.io/nervous-bulldozer/
 
