@@ -48,7 +48,13 @@ similaridade de código serve para: (a) reduzir fraudes e plágio quando compara
 alunos e (b) avaliar a qualidade do código, quando compara código do professor e de alunos.
 
 Os sistemas desenvolvidos por terceiros são outra fonte de ativos. O Moodle.org indica a existência de 
-mais de 50 "Moodle partners" e mais de 100 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
+mais de 50 "Moodle partners" e mais de 400 módulos, desenvolvidos pelo Moodle.org e pelos parceiros.
+
+O Moodle possui duas identidades distintas: (a) uma comunidade de professores e desenvolvedores em software livre (Moodle.org) e (b) uma associação de empresas privadas (Moodle.com). É provável que os ativos da segunda identidade não estejam disponíveis. Na primeira identidade, os ativos estão registrados com a licença GPL.
+
+
+Trabalhos Relacionados
+======================
 
 Experências anteriores (CHARCZUK e SILVA, 2007; MAZONI e ZANLUCHI,2009) indicaram que a integração
 com o Moodle é um fator de risco no desenvolvimento de trabalhos de conclusão de curso. O mesmo acontece com
@@ -59,7 +65,10 @@ constante se estamos desenvolvendo do "jeito certo".
 Fraga e Giraffa (2008) indicam a existência de normas e de um padrão de desenvolvimento para o Moodle e um
 "relatório de cuidados e requisitos necessários para programação/adaptação de funcionalidades" utilizados
 pelo Núcleo de Informática da PUCRS Virtual. Porfiro (2007) relata a experiência de desenvolvimento de
-um módulo no contexto de um trabalho de conclusão.
+um módulo no contexto de um trabalho de conclusão. 
+
+Uma arquitetura modular é adotada em vários sistemas, por exemplo, no Eclipse IDE e no Linux. O desenvolvimento no Moodle, por mais interessante e relevante, não apresenta contribuições à Engenharia de Software. A  complexidade do desenvolvimento relatada em Fraga e Giraffa (2008) e Porfiro (2007) resulta, provavelmente, de falta de formação específica em desenvolvimento de software e de experiência no desenvolvimento no contexto de outros sistemas modulares. O mesmo acontece em relação às atividades, aos papéis e aos artefatos que constam na documentação do Moodle. O Moodle adapta e adota práticas normais no desenvolvimento de software. 
+
 
 Módulos para Administração
 ==========================
