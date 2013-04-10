@@ -170,8 +170,15 @@ Validação
 ---------
 http://docs.moodle.org/dev/Plugin_validation
 
+GPL version 2+ for Moodle 1.x software
+GPL version 3+ for Moodle 2.x
+
+https://moodle.org/plugins/registerplugin.php
+http://docs.moodle.org/dev/Plugins
 
 Moodle.org e Moodle.com.
+
+Moodle e SCORM.
 
 Segundo o Moodle Dev Overview, o Nervous Bulldozer seria um Moodle Partner.
 Versão 2.0 mudou a estrutura do Moodle.
