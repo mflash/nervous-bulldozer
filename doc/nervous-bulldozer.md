@@ -83,6 +83,11 @@ Em EAD, os recursos incluem conexão de satélite, salas remotas, salas de video
 presenciais para para avaliação e bancas de trabalho de conclusão. Os recursos atualmente controlados 
 pelo OpenSARC incluem laboratórios, projetores e computadores portáteis.
 
+O OpenSARC seria integrado como (a) uma ferramenta administrativa (http://docs.moodle.org/dev/Admin_tools) ou (b) como uma aplicação com apresentação independente, porém com compartilhamento do banco de dados e das bibliotecas do Moodle. A vantagem da primeira opção é aproveitar as facilidades da interface de usuário do Moodle, simplicidade de instalação e fornecer uma interface compatível com os demais módulos do Moodle.
+
+### Ferramenta Administrativa
+No menu de Administração, seriam acrescentados: (a) recursos,  (b) horários, (c) alocação e (d) distribuição de recursos. Um segundo módulo permitiria ao professor consultar e alterar alocação de recursos.
+
 Chamada virtual
 ---------------
 - impressão de caderno (ex.: planilha no Excel
