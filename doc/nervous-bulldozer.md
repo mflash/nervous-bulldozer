@@ -86,11 +86,11 @@ pelo OpenSARC incluem laboratórios, projetores e computadores portáteis.
 O OpenSARC seria integrado como (a) uma ferramenta administrativa (http://docs.moodle.org/dev/Admin_tools) ou (b) como uma aplicação com apresentação independente, porém com compartilhamento do banco de dados e das bibliotecas do Moodle. A vantagem da primeira opção é aproveitar as facilidades da interface de usuário do Moodle, simplicidade de instalação e fornecer uma interface compatível com os demais módulos do Moodle.
 
 ### Ferramenta Administrativa
-No menu de Administração, seriam acrescentados: (a) recursos,  (b) horários, (c) alocação e (d) distribuição de recursos. Um segundo módulo permitiria ao professor consultar e alterar alocação de recursos.
+No menu de Administração do Moodle seriam acrescentados: (a) recursos,  (b) horários, (c) alocação e (d) distribuição de recursos. Um segundo módulo permitiria ao professor consultar e alterar alocação de recursos.
 
 Chamada virtual
 ---------------
-- impressão de caderno (ex.: planilha no Excel
+- impressão de caderno (ex.: planilha no Excel utilizada por alguns professores da FACIN)
 - integração com iOS, Android para chamada em sala presencial
 - avaliação de contribuição em salas virtuais e entrega de trabalhos
 
@@ -227,6 +227,60 @@ Moodle usa:
 
 **Dúvida: possível integrar com outros frameworks?**
 
+Análise de Frameworks para PHP
+-------------------------------
+
+Critérios:
+- atividade recente: atividade nos últimos 12 meses
+- software aberto: pode ser inspecionado e alterado
+- PHP 5: orientado a objetos
+- licença GPL: compatível com licença do Moodle
+- organização .org: evita aquisição de produto
+- documentação:
+- arquitetura MVC:
+- influência de Rails:
+
+Zend
+Fevereiro 2013
+Open source
+PHP5
+New BSD
+framework.zend.com
+
+CakePHP
+Abril de 2013
+Open source
+PHP
+MIT
+cakephp.org
+
+CodeIgniter
+Outubro de 2012
+Open source
+PHP
+OSL
+codeigniter.com
+
+Doo
+
+Fat-Free
+Março de 2013
+GPL
+PHP5
+GPL
+fatfree.sf.net
+
+Kohana (derivado do CodeIgniter)
+
+http://www.developer.com/lang/php/article.php/3878476/Top-10-Lightweight-Frameworks-for-PHP-Development.htm
+
+http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks#PHP
+
+Alguns frameworks são criados por dissidências. O código do framework pode ser pequeno (aprox. 100 kb). Alguns serviços do framework se sobrepõe aos do Moodle: autenticação, persistência. O Moodle já é um framework. Sinatra e Rails são incluências de Ruby no PHP. Joomla, Fat-Free e AppFlower utilizam a mesma licença do Moodle. Não sei da compatibilidade entre licenças.
+
+Recomendação: comparar o código de frameworks comerciais com o SODA MVC.
+
+
 Cronograma
 ==========
 
@@ -262,6 +316,11 @@ As consultas utilizadas em pesquisas são armazenadas neste capítulo para evita
 - "Uma ferramenta para gestão de grupos por perfil de alunos no ambiente Moodle" (Google): citações para Porfiro (2007).
 - "moodle partners" (Google): partners não podem ser ONGs e Universidades.
 - "moodle mac" (Google): 
+- "admin tool" (Moodle.org): 
+- "php mvc framework" (Google):
+- "scorm" (Google):
+- "scorm moodle" (Google):
+- "codeigniter" (Alternativeto.net): Symfony, Symfony2, Agile Toolkit, Django, Yii, Kohana, Fat-Free phunction, fuel
 
 Referências
 ===========
