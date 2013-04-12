@@ -237,8 +237,10 @@ Critérios:
 - licença GPL: compatível com licença do Moodle
 - organização .org: evita aquisição de produto
 - documentação:
-- arquitetura MVC:
+- arquitetura MVC: na lista abaixo, todos são.
 - influência de Rails:
+- testes
+- scaffolding
 
 Zend
 Fevereiro 2013
