@@ -3,6 +3,7 @@ Nervous-bulldozer
 marco.mangan@gmail.com
 
 mflashbr@gmail.com
+abril de 2013
 
 
 Introdução
@@ -33,13 +34,15 @@ Dentro da plataforma Moodle, aplicada em disciplinas de semestres iniciais da FA
 
 No primeiro domínio, o principal ativo disponível é o OpenSARC. Houve uma investigação da integração entre o Moodle e 
 o OpenSARC (KUAMOTO, SILVEIRA JUNIOR e MANGAN, 2012; KUAMOTO e SILVEIRA JUNIOR, 2012) que acabou por indicar que 
-os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários e agendas. 
+os dois sistemas apresentam componentes comuns: autenticação e autorização, cadastros de usuários, cadastros de turmas e disciplina e agendas. 
 
-A investigação indica que seria possível transferir os ativos exclusivos do OpenSARC para a plataforma Moodle. 
+A investigação indica que seria possível transferir os ativos exclusivos do OpenSARC para a plataforma Moodle. São ativos exclusivos: cadastro de recursos e cadastro de alocações de recursos.
 A reescrita do OpenSARC como módulo do Moodle amplia a base potencial de usuários, evita a sobreposição dos sistemas
 e oferece a oportunidade de refatorar e atualizar a implementação do OpenSARC.
 
-No segundo domínio, o principal ativo são: MOSS, BlueJ, Eclipse e módulos de Laboratório de Avaliação e
+A rotina de cadastro de turmas e disciplinas realizada com o apoio do SPA seria, provavelmente alterada. As turmas e disciplinas seriam cadastradas diretamente no Moodle.
+
+No segundo domínio, os principais ativos são: MOSS, BlueJ, Eclipse e módulos de Laboratório de Avaliação e
 Tarefas do Moodle. O aprendizado da programação demanda prática e existe um potencial para integração de 
 ambientes de programação e também para a avaliação automática e semi-automática de exercícios.
 
