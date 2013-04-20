@@ -4,14 +4,15 @@ marco.mangan@gmail.com
 
 # Introdução
 
-O relógio é um componente simples, para testes de integração com o Moodle 2.0 utilizando o framework SODA. O componente apresenta hora e minuto conforme o relógio do computador servidor.
-
-A modelagem deste componente iniciou em 2007 e foi retomada em 2009. A lista de requisitos foi desenvolvida como exercício na disciplina de Modelagem de Sistemas.
+O relógio é um componente simples, para testes de integração com o Moodle 2.0 utilizando o framework SODA. O componente apresenta hora e minuto conforme o relógio do computador servidor. Para relacionar o componente com o SARC, o relógio comunica o horário oficial da PUCRS e o código alfanumérico que a universidade associa a este horário. Além disso, a atualização de tela é uma função utilizada no SARC para apresentar as alocações.
 
 O módulo tem que funcionar, mesmo sem JavaScript, segundo a orientação do Moodle.org aos desenvolvedores. Para apresentar o horário correto, o componente necessita de um script no lado cliente ou outra forma de animação. O relógio deixa de ser atualizado em tempo real, caso o navegador não permita o uso de JavaScript ou outra forma de animação, como CSS3. 
 
 
 # Requisitos
+
+A modelagem deste componente iniciou em 2007 e foi retomada em 2009 e em 2013. A lista de requisitos foi desenvolvida como exercício na disciplina de Modelagem de Sistemas. 
+
 
 - R1	Considerar como referência o horário do servidor na PUCRS.
 - R2	O horário apresentado é o mesmo que regula a entrega de trabalhos via Moodle.
@@ -54,12 +55,27 @@ O módulo tem que funcionar, mesmo sem JavaScript, segundo a orientação do Moo
 - R39	Apresentar mostrador analógico-digital
 - R40	Apresentar configuração de omissão/apresentação de informações para o módulo (não por usuário)
 
+# Maquete
+
+13h01
+    5E |                  | 5FG
+11h30  |   11h35 - 12h25  |   14h00
+ooooo.........
+quinta-feira, 6 de dezembro de 2007
 
 #Desenvolvimento
 
-O componente será criada com o SODA. A pasta utilizada na sincronização com o repositório será associada com uma pasta do servidor através de um atalho. 
+O componente será criada manualmente e também com o SODA. 
 
-A primeira versão do componente deve apresentar um bloco com a data e hora do servidor no momento da criação do bloco. 
+Manter o código do plugin sob versionamento pode ser um problema.
+A pasta utilizada na sincronização com o repositório poderia ser associada com uma pasta do servidor através de um atalho. 
+
+
+A segunda versão do componente deve apresentar um bloco com a data e hora do servidor no momento da criação do bloco. 
+
+A versão final deve atender todos os requisitos e apresentar data, horário e a codificação correspondente utilizada pela PUCRS.
+
+Serviço cron no Moodle.
 
 # Buscas
 
@@ -71,8 +87,26 @@ A primeira versão do componente deve apresentar um bloco com a data e hora do s
 
 "without javascript clock" (Google):
 
+"git moodle how to" (Google):
+
+"git link symbolic" (Google):
+
+"soda moodle blocks" (Google):
+
 
 # Referências
+
+http://docs.moodle.org/dev/Blocks
+
+http://docs.moodle.org/24/en/Git_for_Administrators
+
+http://docs.moodle.org/dev/Git_for_developers
+
+http://git-scm.com/book/en/
+
+http://www.nathankowald.com/blog/2012/06/using-git-with-moodle/
+
+http://stackoverflow.com/questions/954560/what-does-git-do-to-files-that-are-a-symbolic-link
 
 http://docs.moodle.org/dev/JavaScript_guidelines
 
