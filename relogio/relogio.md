@@ -96,6 +96,8 @@ Serviço cron no Moodle.
 
 # Referências
 
+http://dev.moodle.org/course/view.php?id=2
+
 http://docs.moodle.org/dev/Blocks
 
 http://docs.moodle.org/24/en/Git_for_Administrators

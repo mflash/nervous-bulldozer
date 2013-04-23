@@ -1,2 +1,9 @@
-$plugin->version = 2011062800;  // YYYYMMDDHH (year, month, day, 24-hr time)
-$plugin->requires = 2010112400; // YYYYMMDDHH (This is the release version for Moodle 2.0)
+<?php
+  // example contents for version.php
+  defined('MOODLE_INTERNAL') || die();
+
+  $module->version   = 2012010400;       // The current module version (Date: YYYYMMDDXX)
+  $module->requires  = 2011112900;       // Requires this Moodle version
+  $module->component = 'mod_planner';       // Full name of the plugin (used for diagnostics)
+  $module->cron      = 0;
+?>
