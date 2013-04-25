@@ -145,7 +145,13 @@ Badges
 --------
 - Indicar as competências demonstradas nos exercícios. Por exemplo, "margem esquerda", "nomes de variáveis".
 - Ver 4square e openbadges
-
+- https://moodle.org/mod/forum/discuss.php?d=183337
+- http://www.scoop.it/t/moodle-and-mahara/p/2097950220/gamification-of-learning-via-moodle
+- http://www.iteachwithmoodle.com/tag/gamification/
+- http://englishsafari.org/?p=102
+- http://drcheckers.wordpress.com/tag/gamification/
+- http://digiteacher.wordpress.com/category/gamification/
+- alunos do prof. Julio Machado estão iniciado TCC sobre o assunto em 2013/1
 
 Módulos Relacionados
 ====================
