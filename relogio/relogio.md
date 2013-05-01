@@ -104,14 +104,18 @@ Alguns dos trechos da documentação que causaram problemas:
 
 #Ativos
 
+https://tracker.moodle.org/browse/CONTRIB-2356
+em 2010 Ian Wild 
+
+Simon Hanmer 2010
+
 Michael de Raadt SimpleClock
 
 Vencislav Dzhambazov AJAX Calendar With Clock, substitui o calendário do Moodle.
 
-Faltaria um SimpleClock com CSS3
+Faltaria um SimpleClock com CSS3?
 
-https://tracker.moodle.org/browse/CONTRIB-2356
-em 2010 Ian Wild 
+
 
 Alastair Hole Moodle Javascript Cookbook, exemplo de relógio
 
@@ -132,8 +136,10 @@ Alastair Hole Moodle Javascript Cookbook, exemplo de relógio
 
 "soda moodle blocks" (Google):
 
-
 "javascript clock moodle"
+
+"css3 moodle"
+
 
 # Referências
 
@@ -164,3 +170,7 @@ https://moodle.org/plugins/view.php?plugin=block_simple_clock
 https://moodle.org/plugins/view.php?plugin=block_calendar_month
 
 http://www.packtpub.com/article/enhancing-page-elements-with-moodle-javascript
+
+http://kansaitech.com/blog/?p=163
+
+http://www.simonhanmer.com/local_clock_moodle_block
