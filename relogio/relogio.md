@@ -135,6 +135,12 @@ http://lang.moodle.org
 http://download.moodle.org/langpack/2.0/
 http://download.moodle.org/download.php/langpack/2.0/pt_br.zip
 
+HTML Block é similar ao Simple HTML Block?
+
+# Desenvolvimento
+
+Alteração no JavaScript não parece surtir efeito. Desconfio do cache do navegador.
+
 # Buscas
 
 "javascript moodle" (Google):
@@ -191,3 +197,5 @@ http://www.packtpub.com/article/enhancing-page-elements-with-moodle-javascript
 http://kansaitech.com/blog/?p=163
 
 http://www.simonhanmer.com/local_clock_moodle_block
+
+http://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/1Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874-CH1-SW1
