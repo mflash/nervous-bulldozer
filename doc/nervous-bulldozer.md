@@ -141,6 +141,8 @@ Maratona de programação
 -----------------------
 - Cada aluno recebe um exercício diferente. As respostas e comentários ficam em um fórum.
 
+http://www.packtpub.com/moodle-1-9-testing-and-assessment/book
+
 Badges
 --------
 - Indicar as competências demonstradas nos exercícios. Por exemplo, "margem esquerda", "nomes de variáveis".
@@ -170,6 +172,11 @@ http://docs.moodle.org/23/en/Workshop_module
 
 Instalado no Moodle PUCRS como "Laboratório de Avaliação".  Já foi utilizado na Esp. Jogos para avaliação
 de monografias - funciona bem.
+
+Produtos Relacionados
+====
+
+Planbook - Mac Store App
 
 Integrações já existentes
 =========================
@@ -236,6 +243,13 @@ Moodle usa:
 - Outras possibilidades: jQuery (já integrado, funciona sem problemaS)
 
 **Dúvida: possível integrar com outros frameworks?**
+
+
+D2L
+Blackboard
+
+Novo ambiante com tecnologia atual.
+
 
 Análise de Frameworks para PHP
 -------------------------------
