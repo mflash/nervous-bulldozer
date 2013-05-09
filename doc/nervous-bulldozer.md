@@ -153,6 +153,7 @@ Badges
 - http://englishsafari.org/?p=102
 - http://drcheckers.wordpress.com/tag/gamification/
 - http://digiteacher.wordpress.com/category/gamification/
+- https://github.com/drcheckers/moodle-block_badger
 - alunos do prof. Julio Machado estão iniciado TCC sobre o assunto em 2013/1
 
 Módulos Relacionados
